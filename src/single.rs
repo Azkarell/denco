@@ -1,4 +1,3 @@
-use std::fmt::Debug;
 use crate::{BaseAsciiConverter, Config, Encoder, Decoder};
 
 pub struct Base64<C: BaseAsciiConverter> {
